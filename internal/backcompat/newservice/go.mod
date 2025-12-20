@@ -12,7 +12,7 @@ require storj.io/drpc/internal/backcompat v0.0.0-20250714111313-1f5426f0027c
 
 require (
 	github.com/zeebo/errs v1.4.0 // indirect
-	google.golang.org/protobuf v1.36.10 // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 	storj.io/drpc v0.0.34 // indirect
 	storj.io/drpc/internal/backcompat/servicedefs v0.0.0-20250714111313-1f5426f0027c // indirect
 )
