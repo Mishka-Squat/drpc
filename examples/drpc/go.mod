@@ -5,7 +5,7 @@ go 1.25
 replace storj.io/drpc => ../..
 
 require (
-	google.golang.org/protobuf v1.36.10
+	google.golang.org/protobuf v1.36.11
 	storj.io/drpc v0.0.34
 )
 
