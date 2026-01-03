@@ -2,7 +2,9 @@ module storj.io/drpc/examples/opentelemetry
 
 go 1.25
 
-replace storj.io/drpc => ../..
+replace (
+	storj.io/drpc => ../..
+)
 
 require (
 	go.opentelemetry.io/otel v1.10.0
