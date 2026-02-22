@@ -2,9 +2,7 @@ module storj.io/drpc/internal/grpccompat
 
 go 1.25
 
-replace (
-	storj.io/drpc => ../..
-)
+replace storj.io/drpc => ../..
 
 require (
 	github.com/improbable-eng/grpc-web v0.15.0

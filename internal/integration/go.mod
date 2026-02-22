@@ -2,9 +2,7 @@ module storj.io/drpc/internal/integration
 
 go 1.25
 
-replace (
-	storj.io/drpc => ../..
-)
+replace storj.io/drpc => ../..
 
 require (
 	github.com/gogo/protobuf v1.3.2
