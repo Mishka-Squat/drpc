@@ -1,6 +1,6 @@
 module storj.io/drpc/examples/grpc_and_drpc
 
-go 1.25
+go 1.26
 
 replace storj.io/drpc => ../..
 

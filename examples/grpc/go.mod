@@ -1,6 +1,6 @@
 module storj.io/drpc/examples/grpc
 
-go 1.19
+go 1.26
 
 require (
 	google.golang.org/grpc v1.36.0

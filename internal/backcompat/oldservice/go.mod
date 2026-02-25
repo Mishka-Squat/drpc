@@ -1,6 +1,6 @@
 module storj.io/drpc/internal/backcompat/oldservice
 
-go 1.25
+go 1.26
 
 replace storj.io/drpc => storj.io/drpc v0.0.17
 
