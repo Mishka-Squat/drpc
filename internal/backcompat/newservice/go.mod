@@ -8,7 +8,9 @@ replace (
 	storj.io/drpc/internal/backcompat/servicedefs => ../newservicedefs
 )
 
-require storj.io/drpc/internal/backcompat v0.0.0-20250714111313-1f5426f0027c
+require (
+	storj.io/drpc/internal/backcompat v0.0.0-20250714111313-1f5426f0027c
+)
 
 require (
 	github.com/zeebo/errs v1.4.0 // indirect

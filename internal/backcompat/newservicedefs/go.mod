@@ -2,11 +2,15 @@ module storj.io/drpc/internal/backcompat/newservicedefs
 
 go 1.26
 
-replace storj.io/drpc => ../../..
+replace (
+	storj.io/drpc => ../../..
+)
 
 require (
 	google.golang.org/protobuf v1.36.11
 	storj.io/drpc v0.0.34
 )
 
-require github.com/zeebo/errs v1.4.0 // indirect
+require (
+	github.com/zeebo/errs v1.4.0 // indirect
+)
