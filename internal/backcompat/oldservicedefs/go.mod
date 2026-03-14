@@ -7,6 +7,4 @@ require (
 	storj.io/drpc v0.0.34
 )
 
-require (
-	github.com/zeebo/errs v1.4.0 // indirect
-)
+require github.com/zeebo/errs v1.4.0 // indirect
