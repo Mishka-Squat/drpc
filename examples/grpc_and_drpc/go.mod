@@ -2,7 +2,9 @@ module storj.io/drpc/examples/grpc_and_drpc
 
 go 1.26
 
-replace storj.io/drpc => ../..
+replace (
+	storj.io/drpc => ../..
+)
 
 require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c

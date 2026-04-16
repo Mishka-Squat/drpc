@@ -2,14 +2,18 @@ module storj.io/drpc/internal/backcompat/oldservice
 
 go 1.26
 
-replace storj.io/drpc => storj.io/drpc v0.0.17
+replace (
+	storj.io/drpc => storj.io/drpc v0.0.17
+)
 
 replace (
 	storj.io/drpc/internal/backcompat => ../
 	storj.io/drpc/internal/backcompat/servicedefs => ../oldservicedefs
 )
 
-require storj.io/drpc/internal/backcompat v0.0.0-20250714111313-1f5426f0027c
+require (
+	storj.io/drpc/internal/backcompat v0.0.0-20250714111313-1f5426f0027c
+)
 
 require (
 	github.com/gogo/protobuf v1.3.2 // indirect
