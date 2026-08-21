@@ -1,3 +1,3 @@
 module storj.io/drpc/internal/backcompat/servicedefs
 
-go 1.26
+go 1.27

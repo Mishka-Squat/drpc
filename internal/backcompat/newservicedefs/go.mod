@@ -1,6 +1,6 @@
 module storj.io/drpc/internal/backcompat/newservicedefs
 
-go 1.26
+go 1.27
 
 replace (
 	storj.io/drpc => ../../..

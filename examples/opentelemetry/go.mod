@@ -1,6 +1,6 @@
 module storj.io/drpc/examples/opentelemetry
 
-go 1.26
+go 1.27
 
 replace (
 	storj.io/drpc => ../..

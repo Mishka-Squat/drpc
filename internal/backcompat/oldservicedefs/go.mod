@@ -1,6 +1,6 @@
 module storj.io/drpc/internal/backcompat/oldservicedefs
 
-go 1.26
+go 1.27
 
 require (
 	github.com/gogo/protobuf v1.3.2
